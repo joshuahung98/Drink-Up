@@ -1,0 +1,45 @@
+h1 {
+	float: left;
+}
+
+h1:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+a {
+	text-decoration: none;
+	color: #4B88A2;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.active {
+	color: #2A95CA;
+}
+
+h2 {
+	color: #2A95CA;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media(max-width: 769px) {
+	#logo {
+		width: 50%;
+	}
+
+}
+
+@media(max-width: 576px) {
+	#logo {
+		width: 70%;
+	}
+}
+
+label {
+	color: #4B88A2;
+}

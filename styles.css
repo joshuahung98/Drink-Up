@@ -1,0 +1,43 @@
+h1 {
+	float: left;
+}
+
+h1:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+a {
+	text-decoration: none;
+	color: #4B88A2;
+}
+
+h2 {
+	color: #2A95CA;
+}
+
+h3 {
+	color: #356D89;
+}
+
+#main {
+	min-height: 90vh;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+@media(max-width: 769px) {
+	#logo {
+		width: 50%;
+	}
+
+}
+
+@media(max-width: 576px) {
+	#logo {
+		width: 70%;
+	}
+}
